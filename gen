@@ -1,0 +1,11 @@
+#!/bin/sh
+
+libtoolize --copy --force --automake
+if test $? != 0; then
+	echo "Libtool not found. You will need libtool and libltdl3 packages to continue."
+	return 1
+fi
+
+aclocal
+autoconf
+automake -a -c
