@@ -1,0 +1,12 @@
+cdb
+cdb-shared
+tinycdb-*.tar.gz
+tests.out
+*.lo
+lib*.so*
+build-stamp
+
+Makefile.perl
+CDB_File.bs
+CDB_File.c
+blib
