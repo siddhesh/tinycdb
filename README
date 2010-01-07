@@ -1,0 +1,5 @@
+To build from git:
+
+$ ./gen
+$ ./configure
+$ make
